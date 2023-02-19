@@ -1199,7 +1199,7 @@
       "values": {}
     },
     "Criticals": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -1654,7 +1654,7 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Mode": "ShaderGlow",
+        "Mode": "Real2D",
         "Outline-Width": 3.0,
         "WireFrame-Width": 2.0,
         "ShaderOutline-Radius": 1.35,
@@ -1793,13 +1793,13 @@
       "values": {}
     },
     "FastPlace": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "Speed": 0
+        "Speed": 2
       }
     },
     "FastPlay": {
@@ -2335,7 +2335,7 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "HotbarMode": "Rounded",
+        "HotbarMode": "Rise",
         "HotbarAlpha": 70,
         "HotbarEase": false,
         "Blur": false,
@@ -2420,7 +2420,7 @@
       }
     },
     "InvManager": {
-      "state": true,
+      "state": false,
       "keybind": 37,
       "array": true,
       "autodisable": "NONE",
@@ -2564,16 +2564,16 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "MaxCPS": 14,
+        "MaxCPS": 9,
         "MinCPS": 7,
         "HurtTime": 10,
         "1.9CombatDelay": false,
         "SimulateCooldown": false,
-        "Range": 4.03,
-        "ThroughWallsRange": 4.03,
+        "Range": 3.47,
+        "ThroughWallsRange": 1.56,
         "RangeSprintReducement": 0.0,
-        "SwingRange": 4.03,
-        "DiscoverRange": 4.03,
+        "SwingRange": 3.47,
+        "DiscoverRange": 3.47,
         "BlinkCheck": true,
         "NoScaffold": true,
         "NoFly": false,
@@ -2583,7 +2583,7 @@
         "AttackTiming": "Pre",
         "KeepSprint": false,
         "NoBadPackets": true,
-        "AutoBlock": "Range",
+        "AutoBlock": "Fake",
         "AutoBlockRange": 4.03,
         "BlockTiming": "Pre",
         "AutoBlockPacket": "Vanilla",
@@ -2624,7 +2624,7 @@
         "SwitchDelay": 15,
         "LimitedMultiTargets": 0,
         "Mark": "Lies",
-        "Circle": false,
+        "Circle": true,
         "CircleRed": 255,
         "CircleGreen": 255,
         "CircleBlue": 255,
@@ -3582,7 +3582,7 @@
       }
     },
     "Projectiles": {
-      "state": false,
+      "state": true,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
@@ -4230,7 +4230,7 @@
       "values": {}
     },
     "Stealer": {
-      "state": true,
+      "state": false,
       "keybind": 37,
       "array": true,
       "autodisable": "NONE",
@@ -4511,7 +4511,7 @@
       }
     },
     "Velocity": {
-      "state": true,
+      "state": false,
       "keybind": 0,
       "array": true,
       "autodisable": "NONE",
